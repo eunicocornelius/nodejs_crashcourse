@@ -4,8 +4,9 @@
   "description": "Node Crash Course",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "prestart": "next build",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
