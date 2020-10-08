@@ -4,10 +4,10 @@
   "description": "Node Crash Course",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "build": "next build",
-    "postinstall": "npm run build",
-    "start": "NODE_ENV=production node index.js"
+    "prestart": "node index",
+    "start": "node index",
+    "dev": "nodemon index",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
