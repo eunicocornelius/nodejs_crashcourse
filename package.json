@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_crashcourse",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunicocornelius/nodejs_crashcourse.git"
+  },
+  "keywords": [
+    "nodejs",
+    "crashcourse"
+  ],
+  "author": "Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunicocornelius/nodejs_crashcourse/issues"
+  },
+  "homepage": "https://github.com/eunicocornelius/nodejs_crashcourse#readme"
+}
