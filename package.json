@@ -6,8 +6,7 @@
   "scripts": {
     "prestart": "node index",
     "start": "node index",
-    "dev": "nodemon index",
-    "postinstall": "npm run build"
+    "dev": "node index"
   },
   "repository": {
     "type": "git",
