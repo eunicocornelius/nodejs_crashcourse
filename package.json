@@ -4,7 +4,8 @@
   "description": "Node Crash Course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/eunicocornelius/nodejs_crashcourse/issues"
   },
-  "homepage": "https://github.com/eunicocornelius/nodejs_crashcourse#readme"
+  "homepage": "https://github.com/eunicocornelius/nodejs_crashcourse#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
